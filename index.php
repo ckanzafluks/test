@@ -1,5 +1,7 @@
 <?php
 
+$var = 'je suis suis toto'
+
 // Definition du path absolu
 define("ABSOLUTE_PATH", dirname(__FILE__));
 
@@ -19,7 +21,6 @@ function __autoload($className) {
 
 
 
-require_once(ABSOLUTE_PATH. '/controllers/frontend.php');
 
 
 
